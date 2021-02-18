@@ -1,1 +1,129 @@
-/* Add CSS styling here */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerdiv {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    padding: 3rem;
+    background-color: rgb(69, 82, 141);
+    border: 1rem solid darkgray;
+}
+
+#mainhead {
+    color: lightgray;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    margin-left: 0rem;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.buttons {
+    text-decoration: none;
+    color:lightgray;
+    background-color:rgb(69, 82, 141);
+    margin: 1rem;
+    margin-left: 0rem;
+    padding: .5rem;
+    border: .2rem solid lightgrey;
+    border-radius: 5px 25px;
+    transition: .5s;
+    outline: none;
+}
+
+.buttons:hover {
+    background-color: lightgrey;
+    color:rgb(69, 82, 141);
+    border-color:rgb(69, 82, 141)
+}
+
+.mainbody {
+    background-color: lightgrey;
+    border:1rem solid rgb(69, 82, 141);
+    color:rgb(69, 82, 141);
+}
+
+.mainfocus {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50%;
+    margin: 1rem;
+    margin-bottom: .25rem;
+}
+
+.mainfocus2 {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    margin: 1rem;
+}
+
+#secondhead {
+    color:rgb(69, 82, 141);
+    font-size: 2rem;
+}
+
+.footerdiv {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background-color: rgb(69, 82, 141);
+    border: 1rem solid darkgray;
+}
