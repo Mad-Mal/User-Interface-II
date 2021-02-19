@@ -48,6 +48,8 @@ table {
 	border-spacing: 0;
 }
 
+/* Page Style */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -57,15 +59,20 @@ body {
     flex-flow: column nowrap;
     justify-content: space-around;
     padding: 3rem;
-    background-color: rgb(69, 82, 141);
-    border: 1rem solid darkgray;
+    background-color: lightgray;
+    border: 1rem solid rgb(69, 82, 141);
 }
 
-#mainhead {
-    color: lightgray;
+.mainhead {
+    color: rgb(69, 82, 141);
     font-size: 3rem;
     padding-bottom: 2rem;
     margin-left: 0rem;
+}
+
+.headimg {
+    border: .5rem solid rgb(69, 82, 141);
+    border-radius: 4px;
 }
 
 .navbar {
@@ -75,21 +82,42 @@ body {
 
 .buttons {
     text-decoration: none;
-    color:lightgray;
-    background-color:rgb(69, 82, 141);
+    color:rgb(69, 82, 141);
+    background-color:lightgrey;
     margin: 1rem;
     margin-left: 0rem;
     padding: .5rem;
-    border: .2rem solid lightgrey;
+    border: .2rem solid rgb(69, 82, 141);
     border-radius: 5px 25px;
-    transition: .5s;
+    transition: .3s;
     outline: none;
+    width: 6rem;
+    height: 3rem;
+}
+
+.buttons2 {
+    text-decoration: none;
+    color: rgb(69, 82, 141);
+    background-color:lightgrey;
+    margin: 2rem;
+    padding: .5rem;
+    border: .2rem solid rgb(69, 82, 141);
+    border-radius: 5px 25px;
+    transition: .3s;
+    outline: none;
+    width: 6rem;
+    height: 3rem;
 }
 
 .buttons:hover {
-    background-color: lightgrey;
-    color:rgb(69, 82, 141);
-    border-color:rgb(69, 82, 141)
+    background-color: rgb(69, 82, 141);
+    color: lightgrey;
+}
+
+.buttons2:hover {
+    background-color: rgb(69, 82, 141);
+    color: lightgrey;
+    border-color: rgb(69, 82, 141);
 }
 
 .mainbody {
@@ -100,22 +128,40 @@ body {
 
 .mainfocus {
     display: flex;
-    flex-flow: row nowrap;
-    width: 50%;
-    margin: 1rem;
-    margin-bottom: .25rem;
-}
-
-.mainfocus2 {
-    display: flex;
-    flex-flow: column nowrap;
+    flex-direction: row nowrap;
     width: 100%;
     margin: 1rem;
 }
 
-#secondhead {
+.mainfocus2 {
+    width: 47.5%;
+    margin-left: 1rem;
+    border: .5rem solid rgb(69, 82, 141);
+    border-radius: 4px;
+}
+
+.secondhead {
     color:rgb(69, 82, 141);
     font-size: 2rem;
+    padding: 2rem;
+    margin: 0rem;
+}
+
+.mainpara {
+    margin: 2rem;
+    margin-top: 1rem;
+}
+
+.imggroup {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.imgs {
+    border:.25rem solid rgb(69, 82, 141);
+    border-radius: 4px;
+    margin: 1rem;
 }
 
 .footerdiv {
@@ -124,6 +170,86 @@ body {
     justify-content: center;
     align-items: center;
     padding: 3rem;
-    background-color: rgb(69, 82, 141);
-    border: 1rem solid darkgray;
+    color: rgb(69, 82, 141);
+    background-color: lightgrey;
+    border: 1rem solid rgb(69, 82, 141);
+    font-size: 2rem;
 }
+
+/* contact page styling */
+
+.maincontact {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    border: 1rem solid rgb(69, 82, 141);
+    background-color: lightgray;
+}
+
+.maincontactpara {
+    padding: 2.5rem;
+}
+
+#contactform {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.formname {
+    width: 10rem;
+    margin: .5rem;
+    margin-left: 1.5rem;
+    color: rgb(69, 82, 141);
+}
+
+.formemail {
+    width: 10rem;
+    margin: .5rem;
+    margin-left: 1.5rem;
+    color: rgb(69, 82, 141);
+}
+
+.contactreason {
+    width: 10rem;
+    margin: .5rem;
+    margin-left: 1.5rem;
+    color: rgb(69, 82, 141);
+}
+
+.formmessage {
+    width: 20rem;
+    margin: .5rem;
+    margin-left: 1.5rem;
+    color: rgb(69, 82, 141);
+}
+
+/* about page style */
+
+#socialfooter {
+    display: flex;
+    flex-flow: row nowrap;
+    text-decoration: none;
+    padding: 2rem;
+    background-color: lightgray;
+    border: 1rem solid rgb(69, 82, 141);
+}
+
+div.polaroid {
+    width: 40%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem 1rem 0rem 1rem;
+    margin-bottom: 25px;
+
+    border: .5rem solid rgb(69, 82, 141);
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+/* animation code */
+
