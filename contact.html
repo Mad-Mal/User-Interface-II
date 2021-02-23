@@ -2,10 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=    <h1> ABOUT </h1>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">>
+    <title>Contact Mallory</title>
+    <link rel="stylesheet" href="./style/index.css">
 </head>
 <body>
-    <h1> CONTACT </h1>
+    <header>
+        <div class="headerdiv">
+            <h1 class="mainhead">Mallory Hall</h1>
+            <nav class="navbar">
+                <button class="buttons" href="./index.html">Home</button>
+                <button class="buttons" href="about.html">About</button>
+                <button class="buttons" href="projects.html">Projects</button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="maincontact">
+                <h2 class="secondhead">Contact Me</h2>
+                <p class="maincontactpara">E-mail me with any questions or inquiries. I would be more then happy to answer any questions and set up a time to talk with you.</p>
+                <form id="contactform">
+                    <label class="formname" for="formname">Name:</label>
+                    <input type="text" class="formname" name="formname">
+                    <label class="formemail" for="foremail">E-mail:</label>
+                    <input type="text" class="formemail" name="formemail"> 
+                    <label class="contactreason" for="contactreason">Contact Reason:</label>
+                    <select class="contactreason" name="contactreason">
+                        <option value="interview-inquiry">Interview Inquiry</option>
+                        <option value="project-related-questions">Project Related Questions</option>
+                        <option value="comments/concerns">Comments/Concerns</option>
+                        <option value="work/job-offers">Work/Job Offers</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label class="formmessage"for="formmessage">Message:</label>
+                    <textarea class="formmessage" name="formmessage" rows="10" cols="20">Message Here</textarea>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="socialfooter">
+                <nav class="navbar">
+                    <button class="buttons" href="#">Facebook</button>
+                    <button class="buttons" href="#">Instagram</button>
+                    <button class="buttons" href="#">Twitter</button>
+                </nav>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>
