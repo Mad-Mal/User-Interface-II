@@ -339,6 +339,26 @@ div.polaroid {
         justify-items: center;
         align-items: center;
     }
+
+    #socialfooter {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-items: center;
+        align-items: center;
+        background-color: white;
+        border: none;
+    }
+
+    .secondhead {
+        text-align: center;
+    }
+
+    .mainpara {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 @media (max-width: 500px) {
