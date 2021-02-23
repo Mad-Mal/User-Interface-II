@@ -251,5 +251,107 @@ div.polaroid {
     padding: 10px 20px;
   }
 
-/* animation code */
+/* Code for Responsive Design */
+
+@media (max-width: 800px) {
+    .headerdiv {
+        flex-flow: column nowrap;
+        align-items: center;
+        border: none;
+        background-color: white;
+    }
+    .navbar {
+        flex-flow: column nowrap;
+    }
+    
+    .mainbody {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-items: center;
+        align-items: center;
+        border: none;
+        background-color: white;
+    }
+    .mainfocus {
+        flex-flow: column nowrap;
+        justify-items: center;
+        align-items: center;
+        width: 700px;
+    }
+
+    .headimg {
+       width: 650px;
+    }
+    
+    .mainfocus2 {
+        margin-top: 1rem;
+        margin-left: 0rem;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-items: center;
+        align-items: center;
+        border: none;
+        text-align: center;
+    }
+
+     .footerdiv {
+        border: none;
+     }
+
+     .buttons {
+         background-color: white;
+     }
+
+     .buttons:hover {
+         background-color: rgb(69, 82, 141);
+         color: white;
+     }
+
+     .buttons2 {
+         background-color: white;
+     }
+
+     .buttons2:hover {
+        background-color: rgb(69, 82, 141);
+        color: white;
+     }
+     #buttonfoot {
+         background-color: lightgrey;
+     }
+
+     #buttonfoot:hover {
+        background-color: rgb(69, 82, 141);
+        color: lightgrey;
+    }
+
+    .maincontact {
+        border: none;
+        background-color: white;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .socialfooter {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .headimg {
+        width: 450px;
+     }
+
+     .imgs {
+         width: 200px;
+         height: 200px;
+     }
+}
+
+/* after I finished my media queries and making the page responsive I went back and made sure all of my font-sizes were accesible, 
+all fonts are in rem */
 
